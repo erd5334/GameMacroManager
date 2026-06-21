@@ -1,0 +1,3243 @@
+[
+  {
+    "Id": "a1b2c3d4-0001-0001-0001-000000000001",
+    "CreatedAt": "2026-01-05T20:20:00",
+    "UpdatedAt": "2026-01-05T20:20:00",
+    "Name": "Street Fighter 6",
+    "Description": "Capcom'un efsanevi dövüş oyunu serisi - SF6",
+    "IconPath": "",
+    "BannerPath": "",
+    "Characters": [
+      {
+        "Id": "b2c3d4e5-0004-0001-0001-000000000001",
+        "CreatedAt": "2026-01-05T21:13:00",
+        "Name": "Zangief Modern",
+        "Description": "Kızıl Siklon - Modern kontroller ile basitleştirilmiş combo'lar",
+        "IconPath": "",
+        "Combos": [
+          {
+            "Id": "c3d4e5f6-0004-0001-0001-000000000001",
+            "CreatedAt": "2026-01-05T21:13:00",
+            "UpdatedAt": "2026-01-05T21:13:00",
+            "Name": "Assisted Combo 1",
+            "Description": "Hafif saldırı combo - Z + Assist + X → X → X",
+            "Hotkey": "H",
+            "Actions": [
+              {
+                "Id": "a7b8c9d0-0001-0001-0001-000000000001",
+                "Key": "Z",
+                "ActionType": "Press",
+                "DelayAfterMs": 20,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "a7b8c9d0-0001-0001-0001-000000000002",
+                "Key": "X",
+                "ActionType": "Tap",
+                "DelayAfterMs": 100,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "a7b8c9d0-0001-0001-0001-000000000003",
+                "Key": "X",
+                "ActionType": "Tap",
+                "DelayAfterMs": 100,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "a7b8c9d0-0001-0001-0001-000000000004",
+                "Key": "X",
+                "ActionType": "Tap",
+                "DelayAfterMs": 100,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "a7b8c9d0-0001-0001-0001-000000000005",
+                "Key": "Z",
+                "ActionType": "Release",
+                "DelayAfterMs": 0,
+                "HoldDurationMs": 0
+              }
+            ],
+            "Category": "Combo",
+            "IsEnabled": true,
+            "RepeatWhileHeld": false,
+            "RepeatDelayMs": 100
+          },
+          {
+            "Id": "c3d4e5f6-0004-0001-0001-000000000002",
+            "CreatedAt": "2026-01-05T21:13:00",
+            "UpdatedAt": "2026-01-05T21:13:00",
+            "Name": "Rapid Cancel Assisted Combo",
+            "Description": "Hızlı iptal combo - ↓ + Z + Assist + X → X → X",
+            "Hotkey": "J",
+            "Actions": [
+              {
+                "Id": "a7b8c9d0-0002-0001-0001-000000000001",
+                "Key": "Down",
+                "ActionType": "Press",
+                "DelayAfterMs": 20,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "a7b8c9d0-0002-0001-0001-000000000002",
+                "Key": "Z",
+                "ActionType": "Press",
+                "DelayAfterMs": 20,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "a7b8c9d0-0002-0001-0001-000000000003",
+                "Key": "X",
+                "ActionType": "Tap",
+                "DelayAfterMs": 100,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "a7b8c9d0-0002-0001-0001-000000000004",
+                "Key": "X",
+                "ActionType": "Tap",
+                "DelayAfterMs": 100,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "a7b8c9d0-0002-0001-0001-000000000005",
+                "Key": "X",
+                "ActionType": "Tap",
+                "DelayAfterMs": 100,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "a7b8c9d0-0002-0001-0001-000000000006",
+                "Key": "Z",
+                "ActionType": "Release",
+                "DelayAfterMs": 0,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "a7b8c9d0-0002-0001-0001-000000000007",
+                "Key": "Down",
+                "ActionType": "Release",
+                "DelayAfterMs": 0,
+                "HoldDurationMs": 0
+              }
+            ],
+            "Category": "Combo",
+            "IsEnabled": true,
+            "RepeatWhileHeld": false,
+            "RepeatDelayMs": 100
+          },
+          {
+            "Id": "c3d4e5f6-0004-0001-0001-000000000003",
+            "CreatedAt": "2026-01-05T21:13:00",
+            "UpdatedAt": "2026-01-05T21:13:00",
+            "Name": "Assisted Combo 2",
+            "Description": "Orta saldırı combo - Z + Assist + S → S → S",
+            "Hotkey": "X",
+            "Actions": [
+              {
+                "Id": "a7b8c9d0-0003-0001-0001-000000000001",
+                "Key": "Z",
+                "ActionType": "Press",
+                "DelayAfterMs": 20,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "a7b8c9d0-0003-0001-0001-000000000002",
+                "Key": "S",
+                "ActionType": "Tap",
+                "DelayAfterMs": 120,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "a7b8c9d0-0003-0001-0001-000000000003",
+                "Key": "S",
+                "ActionType": "Tap",
+                "DelayAfterMs": 120,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "a7b8c9d0-0003-0001-0001-000000000004",
+                "Key": "S",
+                "ActionType": "Tap",
+                "DelayAfterMs": 120,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "a7b8c9d0-0003-0001-0001-000000000005",
+                "Key": "Z",
+                "ActionType": "Release",
+                "DelayAfterMs": 25,
+                "HoldDurationMs": 25
+              }
+            ],
+            "Category": "Combo",
+            "IsEnabled": true,
+            "RepeatWhileHeld": false,
+            "RepeatDelayMs": 100
+          },
+          {
+            "Id": "c3d4e5f6-0004-0001-0001-000000000004",
+            "CreatedAt": "2026-01-05T21:13:00",
+            "UpdatedAt": "2026-01-05T21:13:00",
+            "Name": "Assisted Combo 3",
+            "Description": "Güçlü saldırı combo - Z + Assist + D → D → D",
+            "Hotkey": "V",
+            "Actions": [
+              {
+                "Id": "a7b8c9d0-0004-0001-0001-000000000001",
+                "Key": "Z",
+                "ActionType": "Press",
+                "DelayAfterMs": 20,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "a7b8c9d0-0004-0001-0001-000000000002",
+                "Key": "D",
+                "ActionType": "Tap",
+                "DelayAfterMs": 150,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "a7b8c9d0-0004-0001-0001-000000000003",
+                "Key": "D",
+                "ActionType": "Tap",
+                "DelayAfterMs": 150,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "a7b8c9d0-0004-0001-0001-000000000004",
+                "Key": "D",
+                "ActionType": "Tap",
+                "DelayAfterMs": 150,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "a7b8c9d0-0004-0001-0001-000000000005",
+                "Key": "Z",
+                "ActionType": "Release",
+                "DelayAfterMs": 0,
+                "HoldDurationMs": 0
+              }
+            ],
+            "Category": "Combo",
+            "IsEnabled": true,
+            "RepeatWhileHeld": false,
+            "RepeatDelayMs": 100
+          }
+        ],
+        "Playlists": [],
+        "IsEnabled": true,
+        "AccentColor": "#E91E63"
+      },
+      {
+        "Id": "b2c3d4e5-0007-0001-0001-000000000001",
+        "CreatedAt": "2026-02-01T01:44:00",
+        "Name": "Ryu Modern",
+        "Description": "Hadoken ustası - Cancel Drive Rush ile etkili combo'lar",
+        "IconPath": "",
+        "Combos": [
+          {
+            "Id": "c3d4e5f6-0007-0001-0001-000000000001",
+            "CreatedAt": "2026-02-01T01:44:00",
+            "UpdatedAt": "2026-02-01T01:44:00",
+            "Name": "Cancel Drive Rush Combo",
+            "Description": "Hadoken → Cancel Drive Rush → Assisted Combo → Shoryuken",
+            "Hotkey": "",
+            "Actions": [
+              {
+                "Id": "c0d1e2f3-0001-0001-0001-000000000001",
+                "Key": "Down",
+                "ActionType": "Press",
+                "DelayAfterMs": 20,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "c0d1e2f3-0001-0001-0001-000000000002",
+                "Key": "W",
+                "ActionType": "Tap",
+                "DelayAfterMs": 150,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "c0d1e2f3-0001-0001-0001-000000000003",
+                "Key": "Down",
+                "ActionType": "Release",
+                "DelayAfterMs": 100,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "c0d1e2f3-0001-0001-0001-000000000004",
+                "Key": "Right",
+                "ActionType": "Tap",
+                "DelayAfterMs": 50,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "c0d1e2f3-0001-0001-0001-000000000005",
+                "Key": "Right",
+                "ActionType": "Tap",
+                "DelayAfterMs": 50,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "c0d1e2f3-0001-0001-0001-000000000006",
+                "Key": "A",
+                "ActionType": "Tap",
+                "DelayAfterMs": 150,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "c0d1e2f3-0001-0001-0001-000000000007",
+                "Key": "Z",
+                "ActionType": "Press",
+                "DelayAfterMs": 20,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "c0d1e2f3-0001-0001-0001-000000000008",
+                "Key": "M",
+                "ActionType": "Tap",
+                "DelayAfterMs": 100,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "c0d1e2f3-0001-0001-0001-000000000009",
+                "Key": "M",
+                "ActionType": "Tap",
+                "DelayAfterMs": 100,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "c0d1e2f3-0001-0001-0001-000000000010",
+                "Key": "Z",
+                "ActionType": "Release",
+                "DelayAfterMs": 100,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "c0d1e2f3-0001-0001-0001-000000000011",
+                "Key": "Right",
+                "ActionType": "Press",
+                "DelayAfterMs": 20,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "c0d1e2f3-0001-0001-0001-000000000012",
+                "Key": "W",
+                "ActionType": "Tap",
+                "DelayAfterMs": 100,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "c0d1e2f3-0001-0001-0001-000000000013",
+                "Key": "Right",
+                "ActionType": "Release",
+                "DelayAfterMs": 0,
+                "HoldDurationMs": 0
+              }
+            ],
+            "Category": "Advanced",
+            "IsEnabled": true,
+            "RepeatWhileHeld": false,
+            "RepeatDelayMs": 100
+          },
+          {
+            "Id": "c3d4e5f6-0007-0001-0001-000000000002",
+            "CreatedAt": "2026-02-01T01:44:00",
+            "UpdatedAt": "2026-02-01T01:44:00",
+            "Name": "Parry Counter Combo",
+            "Description": "Drive Parry → Parry Drive Rush → Assisted Combo 2 → Super",
+            "Hotkey": "",
+            "Actions": [
+              {
+                "Id": "c0d1e2f3-0002-0001-0001-000000000001",
+                "Key": "A",
+                "ActionType": "Press",
+                "DelayAfterMs": 300,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "c0d1e2f3-0002-0001-0001-000000000002",
+                "Key": "Right",
+                "ActionType": "Tap",
+                "DelayAfterMs": 50,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "c0d1e2f3-0002-0001-0001-000000000003",
+                "Key": "Right",
+                "ActionType": "Tap",
+                "DelayAfterMs": 50,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "c0d1e2f3-0002-0001-0001-000000000004",
+                "Key": "A",
+                "ActionType": "Release",
+                "DelayAfterMs": 100,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "c0d1e2f3-0002-0001-0001-000000000005",
+                "Key": "Z",
+                "ActionType": "Press",
+                "DelayAfterMs": 20,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "c0d1e2f3-0002-0001-0001-000000000006",
+                "Key": "S",
+                "ActionType": "Tap",
+                "DelayAfterMs": 100,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "c0d1e2f3-0002-0001-0001-000000000007",
+                "Key": "S",
+                "ActionType": "Tap",
+                "DelayAfterMs": 100,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "c0d1e2f3-0002-0001-0001-000000000008",
+                "Key": "S",
+                "ActionType": "Tap",
+                "DelayAfterMs": 100,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "c0d1e2f3-0002-0001-0001-000000000009",
+                "Key": "Z",
+                "ActionType": "Release",
+                "DelayAfterMs": 100,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "c0d1e2f3-0002-0001-0001-000000000010",
+                "Key": "Down",
+                "ActionType": "Press",
+                "DelayAfterMs": 20,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "c0d1e2f3-0002-0001-0001-000000000011",
+                "Key": "W",
+                "ActionType": "Tap",
+                "DelayAfterMs": 50,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "c0d1e2f3-0002-0001-0001-000000000012",
+                "Key": "D",
+                "ActionType": "Tap",
+                "DelayAfterMs": 100,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "c0d1e2f3-0002-0001-0001-000000000013",
+                "Key": "Down",
+                "ActionType": "Release",
+                "DelayAfterMs": 0,
+                "HoldDurationMs": 0
+              }
+            ],
+            "Category": "Advanced",
+            "IsEnabled": true,
+            "RepeatWhileHeld": false,
+            "RepeatDelayMs": 100
+          },
+          {
+            "Id": "c3d4e5f6-0007-0001-0001-000000000003",
+            "CreatedAt": "2026-02-01T01:44:00",
+            "UpdatedAt": "2026-02-01T01:44:00",
+            "Name": "Pressure Combo",
+            "Description": "Drive Impact → Assisted Combo 1 → Cancel Drive Rush → Tatsumaki",
+            "Hotkey": "",
+            "Actions": [
+              {
+                "Id": "c0d1e2f3-0003-0001-0001-000000000001",
+                "Key": "E",
+                "ActionType": "Tap",
+                "DelayAfterMs": 200,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "c0d1e2f3-0003-0001-0001-000000000002",
+                "Key": "Z",
+                "ActionType": "Press",
+                "DelayAfterMs": 20,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "c0d1e2f3-0003-0001-0001-000000000003",
+                "Key": "M",
+                "ActionType": "Tap",
+                "DelayAfterMs": 100,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "c0d1e2f3-0003-0001-0001-000000000004",
+                "Key": "M",
+                "ActionType": "Tap",
+                "DelayAfterMs": 100,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "c0d1e2f3-0003-0001-0001-000000000005",
+                "Key": "Z",
+                "ActionType": "Release",
+                "DelayAfterMs": 50,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "c0d1e2f3-0003-0001-0001-000000000006",
+                "Key": "Right",
+                "ActionType": "Tap",
+                "DelayAfterMs": 50,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "c0d1e2f3-0003-0001-0001-000000000007",
+                "Key": "Right",
+                "ActionType": "Tap",
+                "DelayAfterMs": 50,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "c0d1e2f3-0003-0001-0001-000000000008",
+                "Key": "A",
+                "ActionType": "Tap",
+                "DelayAfterMs": 100,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "c0d1e2f3-0003-0001-0001-000000000009",
+                "Key": "Left",
+                "ActionType": "Press",
+                "DelayAfterMs": 20,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "c0d1e2f3-0003-0001-0001-000000000010",
+                "Key": "W",
+                "ActionType": "Tap",
+                "DelayAfterMs": 100,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "c0d1e2f3-0003-0001-0001-000000000011",
+                "Key": "Left",
+                "ActionType": "Release",
+                "DelayAfterMs": 0,
+                "HoldDurationMs": 0
+              }
+            ],
+            "Category": "Advanced",
+            "IsEnabled": true,
+            "RepeatWhileHeld": false,
+            "RepeatDelayMs": 100
+          },
+          {
+            "Id": "c3d4e5f6-0007-0001-0001-000000000004",
+            "CreatedAt": "2026-02-01T01:44:00",
+            "UpdatedAt": "2026-02-01T01:44:00",
+            "Name": "Advanced Rush Down",
+            "Description": "Rapid Cancel → Drive Rush → Shoryuken → Shin Shoryuken",
+            "Hotkey": "",
+            "Actions": [
+              {
+                "Id": "c0d1e2f3-0004-0001-0001-000000000001",
+                "Key": "Down",
+                "ActionType": "Press",
+                "DelayAfterMs": 20,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "c0d1e2f3-0004-0001-0001-000000000002",
+                "Key": "Z",
+                "ActionType": "Press",
+                "DelayAfterMs": 20,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "c0d1e2f3-0004-0001-0001-000000000003",
+                "Key": "M",
+                "ActionType": "Tap",
+                "DelayAfterMs": 100,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "c0d1e2f3-0004-0001-0001-000000000004",
+                "Key": "M",
+                "ActionType": "Tap",
+                "DelayAfterMs": 100,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "c0d1e2f3-0004-0001-0001-000000000005",
+                "Key": "M",
+                "ActionType": "Tap",
+                "DelayAfterMs": 100,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "c0d1e2f3-0004-0001-0001-000000000006",
+                "Key": "Z",
+                "ActionType": "Release",
+                "DelayAfterMs": 50,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "c0d1e2f3-0004-0001-0001-000000000007",
+                "Key": "Down",
+                "ActionType": "Release",
+                "DelayAfterMs": 50,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "c0d1e2f3-0004-0001-0001-000000000008",
+                "Key": "Right",
+                "ActionType": "Tap",
+                "DelayAfterMs": 50,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "c0d1e2f3-0004-0001-0001-000000000009",
+                "Key": "Right",
+                "ActionType": "Tap",
+                "DelayAfterMs": 50,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "c0d1e2f3-0004-0001-0001-000000000010",
+                "Key": "A",
+                "ActionType": "Tap",
+                "DelayAfterMs": 100,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "c0d1e2f3-0004-0001-0001-000000000011",
+                "Key": "Right",
+                "ActionType": "Press",
+                "DelayAfterMs": 20,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "c0d1e2f3-0004-0001-0001-000000000012",
+                "Key": "W",
+                "ActionType": "Tap",
+                "DelayAfterMs": 100,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "c0d1e2f3-0004-0001-0001-000000000013",
+                "Key": "Right",
+                "ActionType": "Release",
+                "DelayAfterMs": 150,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "c0d1e2f3-0004-0001-0001-000000000014",
+                "Key": "Down",
+                "ActionType": "Press",
+                "DelayAfterMs": 20,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "c0d1e2f3-0004-0001-0001-000000000015",
+                "Key": "W",
+                "ActionType": "Tap",
+                "DelayAfterMs": 50,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "c0d1e2f3-0004-0001-0001-000000000016",
+                "Key": "D",
+                "ActionType": "Tap",
+                "DelayAfterMs": 100,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "c0d1e2f3-0004-0001-0001-000000000017",
+                "Key": "Down",
+                "ActionType": "Release",
+                "DelayAfterMs": 0,
+                "HoldDurationMs": 0
+              }
+            ],
+            "Category": "Advanced",
+            "IsEnabled": true,
+            "RepeatWhileHeld": false,
+            "RepeatDelayMs": 100
+          }
+        ],
+        "Playlists": [],
+        "IsEnabled": true,
+        "AccentColor": "#FF5722"
+      },
+      {
+        "Id": "b2c3d4e5-0009-0001-0001-000000000001",
+        "CreatedAt": "2026-02-01T02:45:00",
+        "Name": "Zangief Modern",
+        "Description": "Red Cyclone - Güreş ve grappling ustası",
+        "IconPath": "",
+        "Combos": [
+          {
+            "Id": "c3d4e5f6-0009-0001-0001-000000000001",
+            "CreatedAt": "2026-02-01T02:45:00",
+            "UpdatedAt": "2026-02-01T02:45:00",
+            "Name": "Screw Piledriver",
+            "Description": "↓ or → + W - Dönen pile driver",
+            "Hotkey": "",
+            "Actions": [
+              {
+                "Id": "d4e5f6a7-0009-0001-0001-000000000001",
+                "Key": "Down",
+                "ActionType": "Press",
+                "DelayAfterMs": 20,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "d4e5f6a7-0009-0001-0001-000000000002",
+                "Key": "W",
+                "ActionType": "Tap",
+                "DelayAfterMs": 100,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "d4e5f6a7-0009-0001-0001-000000000003",
+                "Key": "Down",
+                "ActionType": "Release",
+                "DelayAfterMs": 0,
+                "HoldDurationMs": 0
+              }
+            ],
+            "Category": "Special",
+            "IsEnabled": true,
+            "RepeatWhileHeld": false,
+            "RepeatDelayMs": 100
+          },
+          {
+            "Id": "c3d4e5f6-0009-0001-0001-000000000002",
+            "CreatedAt": "2026-02-01T02:45:00",
+            "UpdatedAt": "2026-02-01T02:45:00",
+            "Name": "Russian Suplex",
+            "Description": "← + W - Rus supleksi",
+            "Hotkey": "",
+            "Actions": [
+              {
+                "Id": "d4e5f6a7-0009-0002-0001-000000000001",
+                "Key": "Left",
+                "ActionType": "Press",
+                "DelayAfterMs": 20,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "d4e5f6a7-0009-0002-0001-000000000002",
+                "Key": "W",
+                "ActionType": "Tap",
+                "DelayAfterMs": 100,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "d4e5f6a7-0009-0002-0001-000000000003",
+                "Key": "Left",
+                "ActionType": "Release",
+                "DelayAfterMs": 0,
+                "HoldDurationMs": 0
+              }
+            ],
+            "Category": "Special",
+            "IsEnabled": true,
+            "RepeatWhileHeld": false,
+            "RepeatDelayMs": 100
+          },
+          {
+            "Id": "c3d4e5f6-0009-0001-0001-000000000003",
+            "CreatedAt": "2026-02-01T02:45:00",
+            "UpdatedAt": "2026-02-01T02:45:00",
+            "Name": "Double Lariat",
+            "Description": "↓ + W - Çift kol dönüşü",
+            "Hotkey": "",
+            "Actions": [
+              {
+                "Id": "d4e5f6a7-0009-0003-0001-000000000001",
+                "Key": "Down",
+                "ActionType": "Press",
+                "DelayAfterMs": 20,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "d4e5f6a7-0009-0003-0001-000000000002",
+                "Key": "W",
+                "ActionType": "Tap",
+                "DelayAfterMs": 100,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "d4e5f6a7-0009-0003-0001-000000000003",
+                "Key": "Down",
+                "ActionType": "Release",
+                "DelayAfterMs": 0,
+                "HoldDurationMs": 0
+              }
+            ],
+            "Category": "Special",
+            "IsEnabled": true,
+            "RepeatWhileHeld": false,
+            "RepeatDelayMs": 100
+          },
+          {
+            "Id": "c3d4e5f6-0009-0001-0001-000000000004",
+            "CreatedAt": "2026-02-01T02:45:00",
+            "UpdatedAt": "2026-02-01T02:45:00",
+            "Name": "Aerial Russian Slam",
+            "Description": "↓ or → + W + D - Havadan Rus çarpması (Super Art 1)",
+            "Hotkey": "",
+            "Actions": [
+              {
+                "Id": "d4e5f6a7-0009-0004-0001-000000000001",
+                "Key": "Down",
+                "ActionType": "Press",
+                "DelayAfterMs": 20,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "d4e5f6a7-0009-0004-0001-000000000002",
+                "Key": "W",
+                "ActionType": "Tap",
+                "DelayAfterMs": 50,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "d4e5f6a7-0009-0004-0001-000000000003",
+                "Key": "D",
+                "ActionType": "Tap",
+                "DelayAfterMs": 100,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "d4e5f6a7-0009-0004-0001-000000000004",
+                "Key": "Down",
+                "ActionType": "Release",
+                "DelayAfterMs": 0,
+                "HoldDurationMs": 0
+              }
+            ],
+            "Category": "Super",
+            "IsEnabled": true,
+            "RepeatWhileHeld": false,
+            "RepeatDelayMs": 100
+          },
+          {
+            "Id": "c3d4e5f6-0009-0001-0001-000000000005",
+            "CreatedAt": "2026-02-01T02:45:00",
+            "UpdatedAt": "2026-02-01T02:45:00",
+            "Name": "Cyclone Lariat",
+            "Description": "← + W + D - Kasırga lariat (Super Art 2)",
+            "Hotkey": "",
+            "Actions": [
+              {
+                "Id": "d4e5f6a7-0009-0005-0001-000000000001",
+                "Key": "Left",
+                "ActionType": "Press",
+                "DelayAfterMs": 20,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "d4e5f6a7-0009-0005-0001-000000000002",
+                "Key": "W",
+                "ActionType": "Tap",
+                "DelayAfterMs": 50,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "d4e5f6a7-0009-0005-0001-000000000003",
+                "Key": "D",
+                "ActionType": "Tap",
+                "DelayAfterMs": 100,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "d4e5f6a7-0009-0005-0001-000000000004",
+                "Key": "Left",
+                "ActionType": "Release",
+                "DelayAfterMs": 0,
+                "HoldDurationMs": 0
+              }
+            ],
+            "Category": "Super",
+            "IsEnabled": true,
+            "RepeatWhileHeld": false,
+            "RepeatDelayMs": 100
+          },
+          {
+            "Id": "c3d4e5f6-0009-0001-0001-000000000006",
+            "CreatedAt": "2026-02-01T02:45:00",
+            "UpdatedAt": "2026-02-01T02:45:00",
+            "Name": "Bolshoi Storm Buster",
+            "Description": "↓ + W + D - Büyük fırtına (Super Art 3)",
+            "Hotkey": "",
+            "Actions": [
+              {
+                "Id": "d4e5f6a7-0009-0006-0001-000000000001",
+                "Key": "Down",
+                "ActionType": "Press",
+                "DelayAfterMs": 20,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "d4e5f6a7-0009-0006-0001-000000000002",
+                "Key": "W",
+                "ActionType": "Tap",
+                "DelayAfterMs": 50,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "d4e5f6a7-0009-0006-0001-000000000003",
+                "Key": "D",
+                "ActionType": "Tap",
+                "DelayAfterMs": 100,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "d4e5f6a7-0009-0006-0001-000000000004",
+                "Key": "Down",
+                "ActionType": "Release",
+                "DelayAfterMs": 0,
+                "HoldDurationMs": 0
+              }
+            ],
+            "Category": "Super",
+            "IsEnabled": true,
+            "RepeatWhileHeld": false,
+            "RepeatDelayMs": 100
+          },
+          {
+            "Id": "c3d4e5f6-0009-0001-0001-000000000007",
+            "CreatedAt": "2026-02-01T02:45:00",
+            "UpdatedAt": "2026-02-01T02:45:00",
+            "Name": "Cancel Drive Rush",
+            "Description": "→ → or (W or →) + A - Cancel Drive Rush",
+            "Hotkey": "",
+            "Actions": [
+              {
+                "Id": "d4e5f6a7-0009-0007-0001-000000000001",
+                "Key": "Right",
+                "ActionType": "Tap",
+                "DelayAfterMs": 50,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "d4e5f6a7-0009-0007-0001-000000000002",
+                "Key": "Right",
+                "ActionType": "Tap",
+                "DelayAfterMs": 50,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "d4e5f6a7-0009-0007-0001-000000000003",
+                "Key": "A",
+                "ActionType": "Tap",
+                "DelayAfterMs": 100,
+                "HoldDurationMs": 30
+              }
+            ],
+            "Category": "Advanced",
+            "IsEnabled": true,
+            "RepeatWhileHeld": false,
+            "RepeatDelayMs": 100
+          },
+          {
+            "Id": "c3d4e5f6-0009-0001-0001-000000000008",
+            "CreatedAt": "2026-02-01T02:45:00",
+            "UpdatedAt": "2026-02-01T02:45:00",
+            "Name": "Assisted Combo 1",
+            "Description": "Z + 🎮 + M → M → M",
+            "Hotkey": "",
+            "Actions": [
+              {
+                "Id": "d4e5f6a7-0009-0008-0001-000000000001",
+                "Key": "Z",
+                "ActionType": "Press",
+                "DelayAfterMs": 20,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "d4e5f6a7-0009-0008-0001-000000000002",
+                "Key": "M",
+                "ActionType": "Tap",
+                "DelayAfterMs": 100,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "d4e5f6a7-0009-0008-0001-000000000003",
+                "Key": "M",
+                "ActionType": "Tap",
+                "DelayAfterMs": 100,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "d4e5f6a7-0009-0008-0001-000000000004",
+                "Key": "M",
+                "ActionType": "Tap",
+                "DelayAfterMs": 100,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "d4e5f6a7-0009-0008-0001-000000000005",
+                "Key": "Z",
+                "ActionType": "Release",
+                "DelayAfterMs": 0,
+                "HoldDurationMs": 0
+              }
+            ],
+            "Category": "Combo",
+            "IsEnabled": true,
+            "RepeatWhileHeld": false,
+            "RepeatDelayMs": 100
+          }
+        ],
+        "Playlists": [],
+        "IsEnabled": true,
+        "AccentColor": "#D32F2F"
+      },
+      {
+        "Id": "b2c3d4e5-0011-0001-0001-000000000001",
+        "CreatedAt": "2026-02-01T11:58:00",
+        "Name": "Chun-Li Modern",
+        "Description": "Yüz Tekme Kraliçesi - Modern kontroller ile Serenity Stream combo'ları",
+        "IconPath": "",
+        "Combos": [
+          {
+            "Id": "c3d4e5f6-0011-0001-0001-000000000001",
+            "CreatedAt": "2026-02-01T11:58:00",
+            "UpdatedAt": "2026-02-01T11:58:00",
+            "Name": "Intermediate 8: Serenity Stream Chain",
+            "Description": "↓ + S → ← + D → ↓ ↙ ← + M → (Serenity) ↑ + M → ↓ ↑ + M S → N + W D",
+            "Hotkey": "5",
+            "Actions": [
+              {
+                "Id": "d4e5f6a7-0011-0001-0001-000000000001",
+                "Key": "Down",
+                "ActionType": "Press",
+                "DelayAfterMs": 20,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "d4e5f6a7-0011-0001-0001-000000000002",
+                "Key": "S",
+                "ActionType": "Tap",
+                "DelayAfterMs": 100,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "d4e5f6a7-0011-0001-0001-000000000003",
+                "Key": "Down",
+                "ActionType": "Release",
+                "DelayAfterMs": 50,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "d4e5f6a7-0011-0001-0001-000000000004",
+                "Key": "Left",
+                "ActionType": "Tap",
+                "DelayAfterMs": 30,
+                "HoldDurationMs": 20
+              },
+              {
+                "Id": "d4e5f6a7-0011-0001-0001-000000000005",
+                "Key": "D",
+                "ActionType": "Tap",
+                "DelayAfterMs": 100,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "d4e5f6a7-0011-0001-0001-000000000006",
+                "Key": "Down",
+                "ActionType": "Press",
+                "DelayAfterMs": 30,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "d4e5f6a7-0011-0001-0001-000000000007",
+                "Key": "Left",
+                "ActionType": "Press",
+                "DelayAfterMs": 30,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "d4e5f6a7-0011-0001-0001-000000000008",
+                "Key": "Down",
+                "ActionType": "Release",
+                "DelayAfterMs": 30,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "d4e5f6a7-0011-0001-0001-000000000009",
+                "Key": "M",
+                "ActionType": "Tap",
+                "DelayAfterMs": 150,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "d4e5f6a7-0011-0001-0001-000000000010",
+                "Key": "Left",
+                "ActionType": "Release",
+                "DelayAfterMs": 200,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "d4e5f6a7-0011-0001-0001-000000000011",
+                "Key": "Up",
+                "ActionType": "Tap",
+                "DelayAfterMs": 30,
+                "HoldDurationMs": 20
+              },
+              {
+                "Id": "d4e5f6a7-0011-0001-0001-000000000012",
+                "Key": "M",
+                "ActionType": "Tap",
+                "DelayAfterMs": 150,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "d4e5f6a7-0011-0001-0001-000000000013",
+                "Key": "Down",
+                "ActionType": "Tap",
+                "DelayAfterMs": 30,
+                "HoldDurationMs": 20
+              },
+              {
+                "Id": "d4e5f6a7-0011-0001-0001-000000000014",
+                "Key": "Up",
+                "ActionType": "Tap",
+                "DelayAfterMs": 30,
+                "HoldDurationMs": 20
+              },
+              {
+                "Id": "d4e5f6a7-0011-0001-0001-000000000015",
+                "Key": "M",
+                "ActionType": "Tap",
+                "DelayAfterMs": 80,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "d4e5f6a7-0011-0001-0001-000000000016",
+                "Key": "S",
+                "ActionType": "Tap",
+                "DelayAfterMs": 100,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "d4e5f6a7-0011-0001-0001-000000000017",
+                "Key": "N",
+                "ActionType": "Tap",
+                "DelayAfterMs": 30,
+                "HoldDurationMs": 20
+              },
+              {
+                "Id": "d4e5f6a7-0011-0001-0001-000000000018",
+                "Key": "W",
+                "ActionType": "Tap",
+                "DelayAfterMs": 80,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "d4e5f6a7-0011-0001-0001-000000000019",
+                "Key": "D",
+                "ActionType": "Tap",
+                "DelayAfterMs": 50,
+                "HoldDurationMs": 30
+              }
+            ],
+            "Category": "Intermediate",
+            "IsEnabled": true,
+            "RepeatWhileHeld": false,
+            "RepeatDelayMs": 100
+          },
+          {
+            "Id": "c3d4e5f6-0011-0001-0001-000000000002",
+            "CreatedAt": "2026-02-01T12:06:00",
+            "UpdatedAt": "2026-02-01T12:12:52.006022+03:00",
+            "Name": "Beginner 4: Jump Combo Chain",
+            "Description": "(During a jump) D → Z ↓ + S × 6",
+            "Hotkey": "N",
+            "Actions": [
+              {
+                "Id": "d4e5f6a7-0011-0002-0001-000000000001",
+                "Key": "Up",
+                "ActionType": "Tap",
+                "DelayAfterMs": 500,
+                "HoldDurationMs": 60
+              },
+              {
+                "Id": "d4e5f6a7-0011-0002-0001-000000000002",
+                "Key": "D",
+                "ActionType": "Tap",
+                "DelayAfterMs": 300,
+                "HoldDurationMs": 80
+              },
+              {
+                "Id": "d4e5f6a7-0011-0002-0001-000000000003",
+                "Key": "Z",
+                "ActionType": "Press",
+                "DelayAfterMs": 5,
+                "HoldDurationMs": 300
+              },
+              {
+                "Id": "d4e5f6a7-0011-0002-0001-000000000005",
+                "Key": "S",
+                "ActionType": "Tap",
+                "DelayAfterMs": 80,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "d4e5f6a7-0011-0002-0001-000000000009",
+                "Key": "S",
+                "ActionType": "Tap",
+                "DelayAfterMs": 80,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "d4e5f6a7-0011-0002-0001-000000000013",
+                "Key": "S",
+                "ActionType": "Tap",
+                "DelayAfterMs": 80,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "d4e5f6a7-0011-0002-0001-000000000017",
+                "Key": "S",
+                "ActionType": "Tap",
+                "DelayAfterMs": 80,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "d4e5f6a7-0011-0002-0001-000000000021",
+                "Key": "S",
+                "ActionType": "Tap",
+                "DelayAfterMs": 80,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "d4e5f6a7-0011-0002-0001-000000000025",
+                "Key": "S",
+                "ActionType": "Tap",
+                "DelayAfterMs": 80,
+                "HoldDurationMs": 30
+              }
+            ],
+            "Category": "Beginner",
+            "IsEnabled": true,
+            "RepeatWhileHeld": false,
+            "RepeatDelayMs": 100
+          },
+          {
+            "Id": "c3d4e5f6-0011-0001-0001-000000000003",
+            "CreatedAt": "2026-02-01T12:31:00",
+            "UpdatedAt": "2026-02-01T13:13:24.9291846+03:00",
+            "Name": "Beginner 8: Serenity Stream Juggle",
+            "Description": "↓ ↙ ← + M → (Serenity) ↑ + D → ↓ + S × 3 → W",
+            "Hotkey": "8",
+            "Actions": [
+              {
+                "Id": "d4e5f6a7-0011-0003-0001-000000000001",
+                "Key": "Down",
+                "ActionType": "Press",
+                "DelayAfterMs": 30,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "d4e5f6a7-0011-0003-0001-000000000002",
+                "Key": "Left",
+                "ActionType": "Press",
+                "DelayAfterMs": 30,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "d4e5f6a7-0011-0003-0001-000000000003",
+                "Key": "Down",
+                "ActionType": "Release",
+                "DelayAfterMs": 30,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "d4e5f6a7-0011-0003-0001-000000000004",
+                "Key": "M",
+                "ActionType": "Tap",
+                "DelayAfterMs": 150,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "d4e5f6a7-0011-0003-0001-000000000005",
+                "Key": "Left",
+                "ActionType": "Release",
+                "DelayAfterMs": 200,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "d4e5f6a7-0011-0003-0001-000000000006",
+                "Key": "Down",
+                "ActionType": "Press",
+                "DelayAfterMs": 20,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "d4e5f6a7-0011-0003-0001-000000000007",
+                "Key": "D",
+                "ActionType": "Tap",
+                "DelayAfterMs": 60,
+                "HoldDurationMs": 60
+              },
+              {
+                "Id": "dfaad5f0-92ab-4b57-9a75-a8cfb4985acc",
+                "Key": "Down",
+                "ActionType": "Release",
+                "DelayAfterMs": 50,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "bbf794a2-c05d-4b6b-b18d-3c9cf6a85efc",
+                "Key": "Up",
+                "ActionType": "Press",
+                "DelayAfterMs": 40,
+                "HoldDurationMs": 60
+              },
+              {
+                "Id": "c9ed9985-511f-4148-aa5e-4712edba8173",
+                "Key": "Down",
+                "ActionType": "Press",
+                "DelayAfterMs": 20,
+                "HoldDurationMs": 80
+              },
+              {
+                "Id": "f2fd4a6e-c37b-4144-b19d-0ed2f064fe7f",
+                "Key": "Up",
+                "ActionType": "Release",
+                "DelayAfterMs": 20,
+                "HoldDurationMs": 80
+              },
+              {
+                "Id": "bcbda71b-54a0-4d40-9b6e-17af2d0c9769",
+                "Key": "S",
+                "ActionType": "Tap",
+                "DelayAfterMs": 50,
+                "HoldDurationMs": 80
+              },
+              {
+                "Id": "2d976ffb-26f9-49ca-aa00-04dfcc565174",
+                "Key": "Down",
+                "ActionType": "Release",
+                "DelayAfterMs": 50,
+                "HoldDurationMs": 30
+              }
+            ],
+            "Category": "Beginner",
+            "IsEnabled": true,
+            "RepeatWhileHeld": false,
+            "RepeatDelayMs": 100
+          }
+        ],
+        "Playlists": [
+          {
+            "Id": "bdaa6822-f265-40f6-be17-d2bc4eb09ce6",
+            "CreatedAt": "2026-02-01T12:08:29.041005+03:00",
+            "UpdatedAt": "2026-02-01T12:08:29.0410055+03:00",
+            "Name": "Chun-Li Modern Playlist",
+            "Items": [
+              {
+                "Id": "e7fa1473-c7fb-4c0f-9ce6-99416408bd6e",
+                "ComboId": "c3d4e5f6-0011-0001-0001-000000000002",
+                "DisplayName": "Beginner 4: Jump Combo Chain",
+                "Combo": {
+                  "Id": "c3d4e5f6-0011-0001-0001-000000000002",
+                  "CreatedAt": "2026-02-01T12:06:00",
+                  "UpdatedAt": "2026-02-01T12:12:52.006022+03:00",
+                  "Name": "Beginner 4: Jump Combo Chain",
+                  "Description": "(During a jump) D → Z ↓ + S × 6",
+                  "Hotkey": "4",
+                  "Actions": [
+                    {
+                      "Id": "d4e5f6a7-0011-0002-0001-000000000001",
+                      "Key": "Up",
+                      "ActionType": "Tap",
+                      "DelayAfterMs": 100,
+                      "HoldDurationMs": 30
+                    },
+                    {
+                      "Id": "d4e5f6a7-0011-0002-0001-000000000002",
+                      "Key": "D",
+                      "ActionType": "Tap",
+                      "DelayAfterMs": 150,
+                      "HoldDurationMs": 30
+                    },
+                    {
+                      "Id": "d4e5f6a7-0011-0002-0001-000000000003",
+                      "Key": "Z",
+                      "ActionType": "Press",
+                      "DelayAfterMs": 50,
+                      "HoldDurationMs": 20
+                    },
+                    {
+                      "Id": "d4e5f6a7-0011-0002-0001-000000000005",
+                      "Key": "S",
+                      "ActionType": "Tap",
+                      "DelayAfterMs": 80,
+                      "HoldDurationMs": 30
+                    },
+                    {
+                      "Id": "d4e5f6a7-0011-0002-0001-000000000009",
+                      "Key": "S",
+                      "ActionType": "Tap",
+                      "DelayAfterMs": 80,
+                      "HoldDurationMs": 30
+                    },
+                    {
+                      "Id": "d4e5f6a7-0011-0002-0001-000000000013",
+                      "Key": "S",
+                      "ActionType": "Tap",
+                      "DelayAfterMs": 80,
+                      "HoldDurationMs": 30
+                    },
+                    {
+                      "Id": "d4e5f6a7-0011-0002-0001-000000000017",
+                      "Key": "S",
+                      "ActionType": "Tap",
+                      "DelayAfterMs": 80,
+                      "HoldDurationMs": 30
+                    },
+                    {
+                      "Id": "d4e5f6a7-0011-0002-0001-000000000021",
+                      "Key": "S",
+                      "ActionType": "Tap",
+                      "DelayAfterMs": 80,
+                      "HoldDurationMs": 30
+                    },
+                    {
+                      "Id": "d4e5f6a7-0011-0002-0001-000000000025",
+                      "Key": "S",
+                      "ActionType": "Tap",
+                      "DelayAfterMs": 80,
+                      "HoldDurationMs": 30
+                    }
+                  ],
+                  "Category": "Beginner",
+                  "IsEnabled": true,
+                  "RepeatWhileHeld": false,
+                  "RepeatDelayMs": 100
+                },
+                "DelayAfterMs": 2000,
+                "IsEnabled": true
+              }
+            ],
+            "IsLooping": true,
+            "IsEnabled": true
+          },
+          {
+            "Id": "10e350ea-00ad-4df2-8c49-4f94bb73cb87",
+            "CreatedAt": "2026-02-01T12:13:46.1205865+03:00",
+            "UpdatedAt": "2026-02-01T12:13:46.1205872+03:00",
+            "Name": "Chun-Li Modern Playlist",
+            "Items": [
+              {
+                "Id": "7bf8650d-7756-4a1b-b31d-22b71077964f",
+                "ComboId": "c3d4e5f6-0011-0001-0001-000000000002",
+                "DisplayName": "Beginner 4: Jump Combo Chain",
+                "Combo": {
+                  "Id": "c3d4e5f6-0011-0001-0001-000000000002",
+                  "CreatedAt": "2026-02-01T12:06:00",
+                  "UpdatedAt": "2026-02-01T12:12:52.006022+03:00",
+                  "Name": "Beginner 4: Jump Combo Chain",
+                  "Description": "(During a jump) D → Z ↓ + S × 6",
+                  "Hotkey": "4",
+                  "Actions": [
+                    {
+                      "Id": "d4e5f6a7-0011-0002-0001-000000000001",
+                      "Key": "Up",
+                      "ActionType": "Tap",
+                      "DelayAfterMs": 500,
+                      "HoldDurationMs": 60
+                    },
+                    {
+                      "Id": "d4e5f6a7-0011-0002-0001-000000000002",
+                      "Key": "D",
+                      "ActionType": "Tap",
+                      "DelayAfterMs": 300,
+                      "HoldDurationMs": 80
+                    },
+                    {
+                      "Id": "d4e5f6a7-0011-0002-0001-000000000003",
+                      "Key": "Z",
+                      "ActionType": "Press",
+                      "DelayAfterMs": 5,
+                      "HoldDurationMs": 300
+                    },
+                    {
+                      "Id": "d4e5f6a7-0011-0002-0001-000000000005",
+                      "Key": "S",
+                      "ActionType": "Tap",
+                      "DelayAfterMs": 80,
+                      "HoldDurationMs": 30
+                    },
+                    {
+                      "Id": "d4e5f6a7-0011-0002-0001-000000000009",
+                      "Key": "S",
+                      "ActionType": "Tap",
+                      "DelayAfterMs": 80,
+                      "HoldDurationMs": 30
+                    },
+                    {
+                      "Id": "d4e5f6a7-0011-0002-0001-000000000013",
+                      "Key": "S",
+                      "ActionType": "Tap",
+                      "DelayAfterMs": 80,
+                      "HoldDurationMs": 30
+                    },
+                    {
+                      "Id": "d4e5f6a7-0011-0002-0001-000000000017",
+                      "Key": "S",
+                      "ActionType": "Tap",
+                      "DelayAfterMs": 80,
+                      "HoldDurationMs": 30
+                    },
+                    {
+                      "Id": "d4e5f6a7-0011-0002-0001-000000000021",
+                      "Key": "S",
+                      "ActionType": "Tap",
+                      "DelayAfterMs": 80,
+                      "HoldDurationMs": 30
+                    },
+                    {
+                      "Id": "d4e5f6a7-0011-0002-0001-000000000025",
+                      "Key": "S",
+                      "ActionType": "Tap",
+                      "DelayAfterMs": 80,
+                      "HoldDurationMs": 30
+                    }
+                  ],
+                  "Category": "Beginner",
+                  "IsEnabled": true,
+                  "RepeatWhileHeld": false,
+                  "RepeatDelayMs": 100
+                },
+                "DelayAfterMs": 2000,
+                "IsEnabled": true
+              }
+            ],
+            "IsLooping": true,
+            "IsEnabled": true
+          },
+          {
+            "Id": "89aa1e0a-ccf1-4d3d-aaf1-b3c123de4c88",
+            "CreatedAt": "2026-02-01T12:33:37.1612979+03:00",
+            "UpdatedAt": "2026-02-01T12:33:37.1612983+03:00",
+            "Name": "Chun-Li Modern Playlist",
+            "Items": [
+              {
+                "Id": "5ef358ca-c93e-4ece-87ed-949b414318bd",
+                "ComboId": "c3d4e5f6-0011-0001-0001-000000000003",
+                "DisplayName": "Beginner 8: Serenity Stream Juggle",
+                "Combo": {
+                  "Id": "c3d4e5f6-0011-0001-0001-000000000003",
+                  "CreatedAt": "2026-02-01T12:31:00",
+                  "UpdatedAt": "2026-02-01T12:43:50.3946169+03:00",
+                  "Name": "Beginner 8: Serenity Stream Juggle",
+                  "Description": "↓ ↙ ← + M → (Serenity) ↑ + D → ↓ + S × 3 → W",
+                  "Hotkey": "8",
+                  "Actions": [
+                    {
+                      "Id": "d4e5f6a7-0011-0003-0001-000000000001",
+                      "Key": "Down",
+                      "ActionType": "Press",
+                      "DelayAfterMs": 30,
+                      "HoldDurationMs": 0
+                    },
+                    {
+                      "Id": "d4e5f6a7-0011-0003-0001-000000000002",
+                      "Key": "Left",
+                      "ActionType": "Press",
+                      "DelayAfterMs": 30,
+                      "HoldDurationMs": 0
+                    },
+                    {
+                      "Id": "d4e5f6a7-0011-0003-0001-000000000003",
+                      "Key": "Down",
+                      "ActionType": "Release",
+                      "DelayAfterMs": 30,
+                      "HoldDurationMs": 0
+                    },
+                    {
+                      "Id": "d4e5f6a7-0011-0003-0001-000000000004",
+                      "Key": "M",
+                      "ActionType": "Tap",
+                      "DelayAfterMs": 150,
+                      "HoldDurationMs": 30
+                    },
+                    {
+                      "Id": "d4e5f6a7-0011-0003-0001-000000000005",
+                      "Key": "Left",
+                      "ActionType": "Release",
+                      "DelayAfterMs": 200,
+                      "HoldDurationMs": 0
+                    },
+                    {
+                      "Id": "d4e5f6a7-0011-0003-0001-000000000006",
+                      "Key": "Down",
+                      "ActionType": "Press",
+                      "DelayAfterMs": 30,
+                      "HoldDurationMs": 80
+                    },
+                    {
+                      "Id": "d4e5f6a7-0011-0003-0001-000000000007",
+                      "Key": "D",
+                      "ActionType": "Tap",
+                      "DelayAfterMs": 60,
+                      "HoldDurationMs": 60
+                    },
+                    {
+                      "Id": "d467316f-fc2b-436f-b82b-81de763f2243",
+                      "Key": "Down",
+                      "ActionType": "Release",
+                      "DelayAfterMs": 30,
+                      "HoldDurationMs": 10
+                    },
+                    {
+                      "Id": "d4b164c3-75ac-47eb-a300-d8daa007512e",
+                      "Key": "Down",
+                      "ActionType": "Press",
+                      "DelayAfterMs": 50,
+                      "HoldDurationMs": 80
+                    },
+                    {
+                      "Id": "661e8bed-8823-41f9-a9d1-b285af364b01",
+                      "Key": "S",
+                      "ActionType": "Tap",
+                      "DelayAfterMs": 50,
+                      "HoldDurationMs": 60
+                    }
+                  ],
+                  "Category": "Beginner",
+                  "IsEnabled": true,
+                  "RepeatWhileHeld": false,
+                  "RepeatDelayMs": 100
+                },
+                "DelayAfterMs": 2000,
+                "IsEnabled": true
+              }
+            ],
+            "IsLooping": true,
+            "IsEnabled": true
+          },
+          {
+            "Id": "e42e831d-c597-48cd-afe8-664bda048b12",
+            "CreatedAt": "2026-02-01T12:45:01.8965567+03:00",
+            "UpdatedAt": "2026-02-01T12:45:01.8965577+03:00",
+            "Name": "Chun-Li Modern Playlist",
+            "Items": [
+              {
+                "Id": "620f0492-9bda-4250-9ef1-1fe0e05cf8b3",
+                "ComboId": "c3d4e5f6-0007-0001-0001-000000000004",
+                "DisplayName": "Advanced Rush Down",
+                "Combo": {
+                  "Id": "c3d4e5f6-0007-0001-0001-000000000004",
+                  "CreatedAt": "2026-02-01T01:44:00",
+                  "UpdatedAt": "2026-02-01T01:44:00",
+                  "Name": "Advanced Rush Down",
+                  "Description": "Rapid Cancel → Drive Rush → Shoryuken → Shin Shoryuken",
+                  "Hotkey": "",
+                  "Actions": [
+                    {
+                      "Id": "c0d1e2f3-0004-0001-0001-000000000001",
+                      "Key": "Down",
+                      "ActionType": "Press",
+                      "DelayAfterMs": 20,
+                      "HoldDurationMs": 0
+                    },
+                    {
+                      "Id": "c0d1e2f3-0004-0001-0001-000000000002",
+                      "Key": "Z",
+                      "ActionType": "Press",
+                      "DelayAfterMs": 20,
+                      "HoldDurationMs": 0
+                    },
+                    {
+                      "Id": "c0d1e2f3-0004-0001-0001-000000000003",
+                      "Key": "M",
+                      "ActionType": "Tap",
+                      "DelayAfterMs": 100,
+                      "HoldDurationMs": 30
+                    },
+                    {
+                      "Id": "c0d1e2f3-0004-0001-0001-000000000004",
+                      "Key": "M",
+                      "ActionType": "Tap",
+                      "DelayAfterMs": 100,
+                      "HoldDurationMs": 30
+                    },
+                    {
+                      "Id": "c0d1e2f3-0004-0001-0001-000000000005",
+                      "Key": "M",
+                      "ActionType": "Tap",
+                      "DelayAfterMs": 100,
+                      "HoldDurationMs": 30
+                    },
+                    {
+                      "Id": "c0d1e2f3-0004-0001-0001-000000000006",
+                      "Key": "Z",
+                      "ActionType": "Release",
+                      "DelayAfterMs": 50,
+                      "HoldDurationMs": 0
+                    },
+                    {
+                      "Id": "c0d1e2f3-0004-0001-0001-000000000007",
+                      "Key": "Down",
+                      "ActionType": "Release",
+                      "DelayAfterMs": 50,
+                      "HoldDurationMs": 0
+                    },
+                    {
+                      "Id": "c0d1e2f3-0004-0001-0001-000000000008",
+                      "Key": "Right",
+                      "ActionType": "Tap",
+                      "DelayAfterMs": 50,
+                      "HoldDurationMs": 30
+                    },
+                    {
+                      "Id": "c0d1e2f3-0004-0001-0001-000000000009",
+                      "Key": "Right",
+                      "ActionType": "Tap",
+                      "DelayAfterMs": 50,
+                      "HoldDurationMs": 30
+                    },
+                    {
+                      "Id": "c0d1e2f3-0004-0001-0001-000000000010",
+                      "Key": "A",
+                      "ActionType": "Tap",
+                      "DelayAfterMs": 100,
+                      "HoldDurationMs": 30
+                    },
+                    {
+                      "Id": "c0d1e2f3-0004-0001-0001-000000000011",
+                      "Key": "Right",
+                      "ActionType": "Press",
+                      "DelayAfterMs": 20,
+                      "HoldDurationMs": 0
+                    },
+                    {
+                      "Id": "c0d1e2f3-0004-0001-0001-000000000012",
+                      "Key": "W",
+                      "ActionType": "Tap",
+                      "DelayAfterMs": 100,
+                      "HoldDurationMs": 30
+                    },
+                    {
+                      "Id": "c0d1e2f3-0004-0001-0001-000000000013",
+                      "Key": "Right",
+                      "ActionType": "Release",
+                      "DelayAfterMs": 150,
+                      "HoldDurationMs": 0
+                    },
+                    {
+                      "Id": "c0d1e2f3-0004-0001-0001-000000000014",
+                      "Key": "Down",
+                      "ActionType": "Press",
+                      "DelayAfterMs": 20,
+                      "HoldDurationMs": 0
+                    },
+                    {
+                      "Id": "c0d1e2f3-0004-0001-0001-000000000015",
+                      "Key": "W",
+                      "ActionType": "Tap",
+                      "DelayAfterMs": 50,
+                      "HoldDurationMs": 30
+                    },
+                    {
+                      "Id": "c0d1e2f3-0004-0001-0001-000000000016",
+                      "Key": "D",
+                      "ActionType": "Tap",
+                      "DelayAfterMs": 100,
+                      "HoldDurationMs": 30
+                    },
+                    {
+                      "Id": "c0d1e2f3-0004-0001-0001-000000000017",
+                      "Key": "Down",
+                      "ActionType": "Release",
+                      "DelayAfterMs": 0,
+                      "HoldDurationMs": 0
+                    }
+                  ],
+                  "Category": "Advanced",
+                  "IsEnabled": true,
+                  "RepeatWhileHeld": false,
+                  "RepeatDelayMs": 100
+                },
+                "DelayAfterMs": 2000,
+                "IsEnabled": true
+              }
+            ],
+            "IsLooping": true,
+            "IsEnabled": true
+          },
+          {
+            "Id": "efd389ba-3276-409a-92eb-2c4484175729",
+            "CreatedAt": "2026-02-01T14:53:25.461033+03:00",
+            "UpdatedAt": "2026-02-01T14:53:25.4610336+03:00",
+            "Name": "Chun-Li Modern Playlist",
+            "Items": [
+              {
+                "Id": "ed4995cd-cf2c-4907-8047-c88866aa2d56",
+                "ComboId": "c3d4e5f6-0011-0001-0001-000000000002",
+                "DisplayName": "Beginner 4: Jump Combo Chain",
+                "Combo": {
+                  "Id": "c3d4e5f6-0011-0001-0001-000000000002",
+                  "CreatedAt": "2026-02-01T12:06:00",
+                  "UpdatedAt": "2026-02-01T12:12:52.006022+03:00",
+                  "Name": "Beginner 4: Jump Combo Chain",
+                  "Description": "(During a jump) D → Z ↓ + S × 6",
+                  "Hotkey": "N",
+                  "Actions": [
+                    {
+                      "Id": "d4e5f6a7-0011-0002-0001-000000000001",
+                      "Key": "Up",
+                      "ActionType": "Tap",
+                      "DelayAfterMs": 500,
+                      "HoldDurationMs": 60
+                    },
+                    {
+                      "Id": "d4e5f6a7-0011-0002-0001-000000000002",
+                      "Key": "D",
+                      "ActionType": "Tap",
+                      "DelayAfterMs": 300,
+                      "HoldDurationMs": 80
+                    },
+                    {
+                      "Id": "d4e5f6a7-0011-0002-0001-000000000003",
+                      "Key": "Z",
+                      "ActionType": "Press",
+                      "DelayAfterMs": 5,
+                      "HoldDurationMs": 300
+                    },
+                    {
+                      "Id": "d4e5f6a7-0011-0002-0001-000000000005",
+                      "Key": "S",
+                      "ActionType": "Tap",
+                      "DelayAfterMs": 80,
+                      "HoldDurationMs": 30
+                    },
+                    {
+                      "Id": "d4e5f6a7-0011-0002-0001-000000000009",
+                      "Key": "S",
+                      "ActionType": "Tap",
+                      "DelayAfterMs": 80,
+                      "HoldDurationMs": 30
+                    },
+                    {
+                      "Id": "d4e5f6a7-0011-0002-0001-000000000013",
+                      "Key": "S",
+                      "ActionType": "Tap",
+                      "DelayAfterMs": 80,
+                      "HoldDurationMs": 30
+                    },
+                    {
+                      "Id": "d4e5f6a7-0011-0002-0001-000000000017",
+                      "Key": "S",
+                      "ActionType": "Tap",
+                      "DelayAfterMs": 80,
+                      "HoldDurationMs": 30
+                    },
+                    {
+                      "Id": "d4e5f6a7-0011-0002-0001-000000000021",
+                      "Key": "S",
+                      "ActionType": "Tap",
+                      "DelayAfterMs": 80,
+                      "HoldDurationMs": 30
+                    },
+                    {
+                      "Id": "d4e5f6a7-0011-0002-0001-000000000025",
+                      "Key": "S",
+                      "ActionType": "Tap",
+                      "DelayAfterMs": 80,
+                      "HoldDurationMs": 30
+                    }
+                  ],
+                  "Category": "Beginner",
+                  "IsEnabled": true,
+                  "RepeatWhileHeld": false,
+                  "RepeatDelayMs": 100
+                },
+                "DelayAfterMs": 2000,
+                "IsEnabled": true
+              }
+            ],
+            "IsLooping": false,
+            "IsEnabled": true
+          }
+        ],
+        "IsEnabled": true,
+        "AccentColor": "#E91E8C"
+      },
+      {
+        "Id": "b2c3d4e5-0012-0001-0001-000000000001",
+        "CreatedAt": "2026-02-01T13:30:00",
+        "Name": "Ryu Modern",
+        "Description": "Hadoken Ustası - Modern kontroller ile Denjin Charge combo'ları",
+        "IconPath": "",
+        "Combos": [
+          {
+            "Id": "c3d4e5f6-0012-0001-0001-000000000001",
+            "CreatedAt": "2026-02-01T13:30:00",
+            "UpdatedAt": "2026-02-01T14:23:35.5217522+03:00",
+            "Name": "Advanced 4: Denjin Charge Combo",
+            "Description": "↓ ↓ + M → ↑ + S → ↓ ↙ ← + M S (Buffed) → ← + W D (Hold) → → + W",
+            "Hotkey": "6",
+            "Actions": [
+              {
+                "Id": "d4e5f6a7-0012-0001-0001-000000000001",
+                "Key": "Down",
+                "ActionType": "Tap",
+                "DelayAfterMs": 15,
+                "HoldDurationMs": 100
+              },
+              {
+                "Id": "5b8542d0-76c4-45de-a781-03a9bdc156bd",
+                "Key": "Down",
+                "ActionType": "Tap",
+                "DelayAfterMs": 15,
+                "HoldDurationMs": 100
+              },
+              {
+                "Id": "747582eb-9221-4441-9905-943e52ae2663",
+                "Key": "S",
+                "ActionType": "Tap",
+                "DelayAfterMs": 20,
+                "HoldDurationMs": 100
+              },
+              {
+                "Id": "00e8908d-e3c8-4a18-8daf-2b955ab99349",
+                "Key": "Down",
+                "ActionType": "Tap",
+                "DelayAfterMs": 20,
+                "HoldDurationMs": 100
+              },
+              {
+                "Id": "730466da-f2ff-4070-965a-a120722a0e53",
+                "Key": "S",
+                "ActionType": "Tap",
+                "DelayAfterMs": 20,
+                "HoldDurationMs": 30
+              }
+            ],
+            "Category": "Advanced",
+            "IsEnabled": true,
+            "RepeatWhileHeld": false,
+            "RepeatDelayMs": 100
+          },
+          {
+            "Id": "c3d4e5f6-0012-0002-0001-000000000001",
+            "CreatedAt": "2026-02-01T14:33:00",
+            "UpdatedAt": "2026-02-01T14:33:00",
+            "Name": "Assisted Combo 1",
+            "Description": "Z ↙ + M ▶ M",
+            "Hotkey": "7",
+            "Actions": [
+              {
+                "Id": "d4e5f6a7-0012-0002-0001-000000000001",
+                "Key": "Z",
+                "ActionType": "Tap",
+                "DelayAfterMs": 50,
+                "HoldDurationMs": 40
+              },
+              {
+                "Id": "d4e5f6a7-0012-0002-0001-000000000002",
+                "Key": "Down",
+                "ActionType": "Press",
+                "DelayAfterMs": 30,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "d4e5f6a7-0012-0002-0001-000000000003",
+                "Key": "Left",
+                "ActionType": "Press",
+                "DelayAfterMs": 30,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "d4e5f6a7-0012-0002-0001-000000000004",
+                "Key": "M",
+                "ActionType": "Tap",
+                "DelayAfterMs": 100,
+                "HoldDurationMs": 40
+              },
+              {
+                "Id": "d4e5f6a7-0012-0002-0001-000000000005",
+                "Key": "Down",
+                "ActionType": "Release",
+                "DelayAfterMs": 20,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "d4e5f6a7-0012-0002-0001-000000000006",
+                "Key": "Left",
+                "ActionType": "Release",
+                "DelayAfterMs": 80,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "d4e5f6a7-0012-0002-0001-000000000007",
+                "Key": "M",
+                "ActionType": "Tap",
+                "DelayAfterMs": 50,
+                "HoldDurationMs": 40
+              }
+            ],
+            "Category": "Assisted",
+            "IsEnabled": true,
+            "RepeatWhileHeld": false,
+            "RepeatDelayMs": 100
+          },
+          {
+            "Id": "c3d4e5f6-0012-0003-0001-000000000001",
+            "CreatedAt": "2026-02-01T14:33:00",
+            "UpdatedAt": "2026-02-01T14:33:00",
+            "Name": "Rapid Cancel Assisted Combo",
+            "Description": "↓ + Z ↙ + M ▶ M ▶ M (During rapid cancel)",
+            "Hotkey": "8",
+            "Actions": [
+              {
+                "Id": "d4e5f6a7-0012-0003-0001-000000000001",
+                "Key": "Down",
+                "ActionType": "Press",
+                "DelayAfterMs": 30,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "d4e5f6a7-0012-0003-0001-000000000002",
+                "Key": "Z",
+                "ActionType": "Tap",
+                "DelayAfterMs": 50,
+                "HoldDurationMs": 40
+              },
+              {
+                "Id": "d4e5f6a7-0012-0003-0001-000000000003",
+                "Key": "Down",
+                "ActionType": "Release",
+                "DelayAfterMs": 30,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "d4e5f6a7-0012-0003-0001-000000000004",
+                "Key": "Down",
+                "ActionType": "Press",
+                "DelayAfterMs": 20,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "d4e5f6a7-0012-0003-0001-000000000005",
+                "Key": "Left",
+                "ActionType": "Press",
+                "DelayAfterMs": 30,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "d4e5f6a7-0012-0003-0001-000000000006",
+                "Key": "M",
+                "ActionType": "Tap",
+                "DelayAfterMs": 100,
+                "HoldDurationMs": 40
+              },
+              {
+                "Id": "d4e5f6a7-0012-0003-0001-000000000007",
+                "Key": "Down",
+                "ActionType": "Release",
+                "DelayAfterMs": 20,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "d4e5f6a7-0012-0003-0001-000000000008",
+                "Key": "Left",
+                "ActionType": "Release",
+                "DelayAfterMs": 50,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "d4e5f6a7-0012-0003-0001-000000000009",
+                "Key": "M",
+                "ActionType": "Tap",
+                "DelayAfterMs": 80,
+                "HoldDurationMs": 40
+              },
+              {
+                "Id": "d4e5f6a7-0012-0003-0001-000000000010",
+                "Key": "M",
+                "ActionType": "Tap",
+                "DelayAfterMs": 50,
+                "HoldDurationMs": 40
+              }
+            ],
+            "Category": "Assisted",
+            "IsEnabled": true,
+            "RepeatWhileHeld": false,
+            "RepeatDelayMs": 100
+          },
+          {
+            "Id": "c3d4e5f6-0012-0004-0001-000000000001",
+            "CreatedAt": "2026-02-01T14:33:00",
+            "UpdatedAt": "2026-02-01T14:43:16.7919072+03:00",
+            "Name": "Assisted Combo 2",
+            "Description": "Z ↙ + S ▶ S ▶ S",
+            "Hotkey": "N",
+            "Actions": [
+              {
+                "Id": "d4e5f6a7-0012-0004-0001-000000000001",
+                "Key": "Z",
+                "ActionType": "Press",
+                "DelayAfterMs": 20,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "d4e5f6a7-0012-0004-0001-000000000004",
+                "Key": "S",
+                "ActionType": "Tap",
+                "DelayAfterMs": 120,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "d4e5f6a7-0012-0004-0001-000000000007",
+                "Key": "S",
+                "ActionType": "Tap",
+                "DelayAfterMs": 120,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "d4e5f6a7-0012-0004-0001-000000000008",
+                "Key": "S",
+                "ActionType": "Tap",
+                "DelayAfterMs": 120,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "21f54d20-2996-4d86-92c4-dceb97389e17",
+                "Key": "Z",
+                "ActionType": "Release",
+                "DelayAfterMs": 25,
+                "HoldDurationMs": 25
+              }
+            ],
+            "Category": "Assisted",
+            "IsEnabled": true,
+            "RepeatWhileHeld": false,
+            "RepeatDelayMs": 100
+          },
+          {
+            "Id": "c3d4e5f6-0012-0005-0001-000000000001",
+            "CreatedAt": "2026-02-01T14:33:00",
+            "UpdatedAt": "2026-02-01T14:33:00",
+            "Name": "Assisted Combo 3",
+            "Description": "Z ↙ + D ▶ D ▶ D",
+            "Hotkey": "0",
+            "Actions": [
+              {
+                "Id": "d4e5f6a7-0012-0005-0001-000000000001",
+                "Key": "Z",
+                "ActionType": "Tap",
+                "DelayAfterMs": 50,
+                "HoldDurationMs": 40
+              },
+              {
+                "Id": "d4e5f6a7-0012-0005-0001-000000000002",
+                "Key": "Down",
+                "ActionType": "Press",
+                "DelayAfterMs": 30,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "d4e5f6a7-0012-0005-0001-000000000003",
+                "Key": "Left",
+                "ActionType": "Press",
+                "DelayAfterMs": 30,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "d4e5f6a7-0012-0005-0001-000000000004",
+                "Key": "D",
+                "ActionType": "Tap",
+                "DelayAfterMs": 100,
+                "HoldDurationMs": 40
+              },
+              {
+                "Id": "d4e5f6a7-0012-0005-0001-000000000005",
+                "Key": "Down",
+                "ActionType": "Release",
+                "DelayAfterMs": 20,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "d4e5f6a7-0012-0005-0001-000000000006",
+                "Key": "Left",
+                "ActionType": "Release",
+                "DelayAfterMs": 80,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "d4e5f6a7-0012-0005-0001-000000000007",
+                "Key": "D",
+                "ActionType": "Tap",
+                "DelayAfterMs": 80,
+                "HoldDurationMs": 40
+              },
+              {
+                "Id": "d4e5f6a7-0012-0005-0001-000000000008",
+                "Key": "D",
+                "ActionType": "Tap",
+                "DelayAfterMs": 50,
+                "HoldDurationMs": 40
+              }
+            ],
+            "Category": "Assisted",
+            "IsEnabled": true,
+            "RepeatWhileHeld": false,
+            "RepeatDelayMs": 100
+          }
+        ],
+        "Playlists": [
+          {
+            "Id": "2a8abb4f-dd7b-4942-8ced-e558a6b8a2c1",
+            "CreatedAt": "2026-02-01T13:33:20.8176155+03:00",
+            "UpdatedAt": "2026-02-01T13:33:20.817616+03:00",
+            "Name": "Ryu Modern Playlist",
+            "Items": [
+              {
+                "Id": "ad8cccf7-a98d-4a49-88b8-4547a700171f",
+                "ComboId": "c3d4e5f6-0012-0001-0001-000000000001",
+                "DisplayName": "Advanced 4: Denjin Charge Combo",
+                "Combo": {
+                  "Id": "c3d4e5f6-0012-0001-0001-000000000001",
+                  "CreatedAt": "2026-02-01T13:30:00",
+                  "UpdatedAt": "2026-02-01T13:39:39.5081408+03:00",
+                  "Name": "Advanced 4: Denjin Charge Combo",
+                  "Description": "↓ ↓ + M → ↑ + S → ↓ ↙ ← + M S (Buffed) → ← + W D (Hold) → → + W",
+                  "Hotkey": "6",
+                  "Actions": [
+                    {
+                      "Id": "d4e5f6a7-0012-0001-0001-000000000001",
+                      "Key": "Down",
+                      "ActionType": "Tap",
+                      "DelayAfterMs": 50,
+                      "HoldDurationMs": 50
+                    },
+                    {
+                      "Id": "5b8542d0-76c4-45de-a781-03a9bdc156bd",
+                      "Key": "Down",
+                      "ActionType": "Tap",
+                      "DelayAfterMs": 50,
+                      "HoldDurationMs": 50
+                    }
+                  ],
+                  "Category": "Advanced",
+                  "IsEnabled": true,
+                  "RepeatWhileHeld": false,
+                  "RepeatDelayMs": 100
+                },
+                "DelayAfterMs": 2000,
+                "IsEnabled": true
+              }
+            ],
+            "IsLooping": true,
+            "IsEnabled": true
+          },
+          {
+            "Id": "0266b296-387a-46e7-9403-d3d438828466",
+            "CreatedAt": "2026-02-01T13:55:51.4479218+03:00",
+            "UpdatedAt": "2026-02-01T13:55:51.4479238+03:00",
+            "Name": "Ryu Modern Playlist",
+            "Items": [
+              {
+                "Id": "65cb3dc6-2580-4eb0-b796-8064b60960da",
+                "ComboId": "c3d4e5f6-0012-0001-0001-000000000001",
+                "DisplayName": "Advanced 4: Denjin Charge Combo",
+                "Combo": {
+                  "Id": "c3d4e5f6-0012-0001-0001-000000000001",
+                  "CreatedAt": "2026-02-01T13:30:00",
+                  "UpdatedAt": "2026-02-01T13:39:39.5081408+03:00",
+                  "Name": "Advanced 4: Denjin Charge Combo",
+                  "Description": "↓ ↓ + M → ↑ + S → ↓ ↙ ← + M S (Buffed) → ← + W D (Hold) → → + W",
+                  "Hotkey": "6",
+                  "Actions": [
+                    {
+                      "Id": "d4e5f6a7-0012-0001-0001-000000000001",
+                      "Key": "Down",
+                      "ActionType": "Tap",
+                      "DelayAfterMs": 290,
+                      "HoldDurationMs": 110
+                    },
+                    {
+                      "Id": "5b8542d0-76c4-45de-a781-03a9bdc156bd",
+                      "Key": "Down",
+                      "ActionType": "Tap",
+                      "DelayAfterMs": 290,
+                      "HoldDurationMs": 110
+                    }
+                  ],
+                  "Category": "Advanced",
+                  "IsEnabled": true,
+                  "RepeatWhileHeld": false,
+                  "RepeatDelayMs": 100
+                },
+                "DelayAfterMs": 2000,
+                "IsEnabled": true
+              }
+            ],
+            "IsLooping": true,
+            "IsEnabled": true
+          },
+          {
+            "Id": "c6741acb-2351-4610-b682-19025ffede2c",
+            "CreatedAt": "2026-02-01T14:07:37.2473923+03:00",
+            "UpdatedAt": "2026-02-01T14:07:37.2473942+03:00",
+            "Name": "Ryu Modern Playlist",
+            "Items": [
+              {
+                "Id": "8387d6e3-9ba4-4130-93d1-f1727deef383",
+                "ComboId": "c3d4e5f6-0012-0001-0001-000000000001",
+                "DisplayName": "Advanced 4: Denjin Charge Combo",
+                "Combo": {
+                  "Id": "c3d4e5f6-0012-0001-0001-000000000001",
+                  "CreatedAt": "2026-02-01T13:30:00",
+                  "UpdatedAt": "2026-02-01T14:07:13.943716+03:00",
+                  "Name": "Advanced 4: Denjin Charge Combo",
+                  "Description": "↓ ↓ + M → ↑ + S → ↓ ↙ ← + M S (Buffed) → ← + W D (Hold) → → + W",
+                  "Hotkey": "6",
+                  "Actions": [
+                    {
+                      "Id": "d4e5f6a7-0012-0001-0001-000000000001",
+                      "Key": "Down",
+                      "ActionType": "Tap",
+                      "DelayAfterMs": 0,
+                      "HoldDurationMs": 118
+                    },
+                    {
+                      "Id": "5b8542d0-76c4-45de-a781-03a9bdc156bd",
+                      "Key": "Down",
+                      "ActionType": "Tap",
+                      "DelayAfterMs": 100,
+                      "HoldDurationMs": 144
+                    },
+                    {
+                      "Id": "747582eb-9221-4441-9905-943e52ae2663",
+                      "Key": "S",
+                      "ActionType": "Tap",
+                      "DelayAfterMs": 48,
+                      "HoldDurationMs": 132
+                    }
+                  ],
+                  "Category": "Advanced",
+                  "IsEnabled": true,
+                  "RepeatWhileHeld": false,
+                  "RepeatDelayMs": 100
+                },
+                "DelayAfterMs": 2000,
+                "IsEnabled": true
+              }
+            ],
+            "IsLooping": true,
+            "IsEnabled": true
+          },
+          {
+            "Id": "8950aea1-7ebf-427e-80bb-6764e011e300",
+            "CreatedAt": "2026-02-01T14:15:30.4334386+03:00",
+            "UpdatedAt": "2026-02-01T14:15:30.4334408+03:00",
+            "Name": "Ryu Modern Playlist",
+            "Items": [
+              {
+                "Id": "1756a966-fc5b-41c5-a1cc-170ad1c70857",
+                "ComboId": "c3d4e5f6-0012-0001-0001-000000000001",
+                "DisplayName": "Advanced 4: Denjin Charge Combo",
+                "Combo": {
+                  "Id": "c3d4e5f6-0012-0001-0001-000000000001",
+                  "CreatedAt": "2026-02-01T13:30:00",
+                  "UpdatedAt": "2026-02-01T14:23:35.5217522+03:00",
+                  "Name": "Advanced 4: Denjin Charge Combo",
+                  "Description": "↓ ↓ + M → ↑ + S → ↓ ↙ ← + M S (Buffed) → ← + W D (Hold) → → + W",
+                  "Hotkey": "6",
+                  "Actions": [
+                    {
+                      "Id": "d4e5f6a7-0012-0001-0001-000000000001",
+                      "Key": "Down",
+                      "ActionType": "Tap",
+                      "DelayAfterMs": 15,
+                      "HoldDurationMs": 100
+                    },
+                    {
+                      "Id": "5b8542d0-76c4-45de-a781-03a9bdc156bd",
+                      "Key": "Down",
+                      "ActionType": "Tap",
+                      "DelayAfterMs": 15,
+                      "HoldDurationMs": 100
+                    },
+                    {
+                      "Id": "747582eb-9221-4441-9905-943e52ae2663",
+                      "Key": "S",
+                      "ActionType": "Tap",
+                      "DelayAfterMs": 20,
+                      "HoldDurationMs": 100
+                    },
+                    {
+                      "Id": "00e8908d-e3c8-4a18-8daf-2b955ab99349",
+                      "Key": "Down",
+                      "ActionType": "Tap",
+                      "DelayAfterMs": 20,
+                      "HoldDurationMs": 100
+                    },
+                    {
+                      "Id": "730466da-f2ff-4070-965a-a120722a0e53",
+                      "Key": "S",
+                      "ActionType": "Tap",
+                      "DelayAfterMs": 20,
+                      "HoldDurationMs": 30
+                    }
+                  ],
+                  "Category": "Advanced",
+                  "IsEnabled": true,
+                  "RepeatWhileHeld": false,
+                  "RepeatDelayMs": 100
+                },
+                "DelayAfterMs": 2000,
+                "IsEnabled": true
+              }
+            ],
+            "IsLooping": false,
+            "IsEnabled": true
+          },
+          {
+            "Id": "7397e8ec-19b2-4304-b981-8dcb50fac800",
+            "CreatedAt": "2026-02-01T14:40:41.7257102+03:00",
+            "UpdatedAt": "2026-02-01T14:40:41.7257107+03:00",
+            "Name": "Ryu Modern Playlist",
+            "Items": [
+              {
+                "Id": "09531cfe-f7ca-42d3-99da-f6c2fed6780b",
+                "ComboId": "c3d4e5f6-0012-0004-0001-000000000001",
+                "DisplayName": "Assisted Combo 2",
+                "Combo": {
+                  "Id": "c3d4e5f6-0012-0004-0001-000000000001",
+                  "CreatedAt": "2026-02-01T14:33:00",
+                  "UpdatedAt": "2026-02-01T14:43:16.7919072+03:00",
+                  "Name": "Assisted Combo 2",
+                  "Description": "Z ↙ + S ▶ S ▶ S",
+                  "Hotkey": "N",
+                  "Actions": [
+                    {
+                      "Id": "d4e5f6a7-0012-0004-0001-000000000001",
+                      "Key": "Z",
+                      "ActionType": "Press",
+                      "DelayAfterMs": 20,
+                      "HoldDurationMs": 0
+                    },
+                    {
+                      "Id": "d4e5f6a7-0012-0004-0001-000000000004",
+                      "Key": "S",
+                      "ActionType": "Tap",
+                      "DelayAfterMs": 120,
+                      "HoldDurationMs": 30
+                    },
+                    {
+                      "Id": "d4e5f6a7-0012-0004-0001-000000000007",
+                      "Key": "S",
+                      "ActionType": "Tap",
+                      "DelayAfterMs": 120,
+                      "HoldDurationMs": 30
+                    },
+                    {
+                      "Id": "d4e5f6a7-0012-0004-0001-000000000008",
+                      "Key": "S",
+                      "ActionType": "Tap",
+                      "DelayAfterMs": 120,
+                      "HoldDurationMs": 30
+                    },
+                    {
+                      "Id": "21f54d20-2996-4d86-92c4-dceb97389e17",
+                      "Key": "Z",
+                      "ActionType": "Release",
+                      "DelayAfterMs": 25,
+                      "HoldDurationMs": 25
+                    }
+                  ],
+                  "Category": "Assisted",
+                  "IsEnabled": true,
+                  "RepeatWhileHeld": false,
+                  "RepeatDelayMs": 100
+                },
+                "DelayAfterMs": 2000,
+                "IsEnabled": true
+              }
+            ],
+            "IsLooping": true,
+            "IsEnabled": true
+          },
+          {
+            "Id": "b0a2d5ec-e28f-4a12-869f-23897386d73f",
+            "CreatedAt": "2026-02-01T14:50:18.0008213+03:00",
+            "UpdatedAt": "2026-02-01T14:50:18.0008232+03:00",
+            "Name": "Ryu Modern Playlist",
+            "Items": [
+              {
+                "Id": "105a4db6-d161-4d34-9945-6a0bf06af0d2",
+                "ComboId": "c3d4e5f6-0012-0004-0001-000000000001",
+                "DisplayName": "Assisted Combo 2",
+                "Combo": {
+                  "Id": "c3d4e5f6-0012-0004-0001-000000000001",
+                  "CreatedAt": "2026-02-01T14:33:00",
+                  "UpdatedAt": "2026-02-01T14:43:16.7919072+03:00",
+                  "Name": "Assisted Combo 2",
+                  "Description": "Z ↙ + S ▶ S ▶ S",
+                  "Hotkey": "N",
+                  "Actions": [
+                    {
+                      "Id": "d4e5f6a7-0012-0004-0001-000000000001",
+                      "Key": "Z",
+                      "ActionType": "Press",
+                      "DelayAfterMs": 20,
+                      "HoldDurationMs": 0
+                    },
+                    {
+                      "Id": "d4e5f6a7-0012-0004-0001-000000000004",
+                      "Key": "S",
+                      "ActionType": "Tap",
+                      "DelayAfterMs": 120,
+                      "HoldDurationMs": 30
+                    },
+                    {
+                      "Id": "d4e5f6a7-0012-0004-0001-000000000007",
+                      "Key": "S",
+                      "ActionType": "Tap",
+                      "DelayAfterMs": 120,
+                      "HoldDurationMs": 30
+                    },
+                    {
+                      "Id": "d4e5f6a7-0012-0004-0001-000000000008",
+                      "Key": "S",
+                      "ActionType": "Tap",
+                      "DelayAfterMs": 120,
+                      "HoldDurationMs": 30
+                    },
+                    {
+                      "Id": "21f54d20-2996-4d86-92c4-dceb97389e17",
+                      "Key": "Z",
+                      "ActionType": "Release",
+                      "DelayAfterMs": 25,
+                      "HoldDurationMs": 25
+                    }
+                  ],
+                  "Category": "Assisted",
+                  "IsEnabled": true,
+                  "RepeatWhileHeld": false,
+                  "RepeatDelayMs": 100
+                },
+                "DelayAfterMs": 2000,
+                "IsEnabled": true
+              }
+            ],
+            "IsLooping": false,
+            "IsEnabled": true
+          }
+        ],
+        "IsEnabled": true,
+        "AccentColor": "#FF5722"
+      }
+    ],
+    "IsEnabled": true,
+    "ThemeColor": "#E91E63",
+    "ExecutableName": "StreetFighter6.exe"
+  },
+  {
+    "Id": "a1b2c3d4-0002-0001-0001-000000000001",
+    "CreatedAt": "2026-02-01T02:30:00",
+    "UpdatedAt": "2026-02-01T02:30:00",
+    "Name": "EA Sports FC 26",
+    "Description": "EA Sports futbol simülasyonu - Şut ve skill combo'ları",
+    "IconPath": "",
+    "BannerPath": "",
+    "Characters": [
+      {
+        "Id": "b2c3d4e5-0008-0001-0001-000000000001",
+        "CreatedAt": "2026-02-01T02:30:00",
+        "Name": "Şut Combo'ları",
+        "Description": "Plase, Sert Şut ve Trivela teknikleri",
+        "IconPath": "",
+        "Combos": [
+          {
+            "Id": "c3d4e5f6-0008-0001-0001-000000000001",
+            "CreatedAt": "2026-02-01T02:30:00",
+            "UpdatedAt": "2026-02-01T02:30:00",
+            "Name": "Plase Şut (Finesse Shot)",
+            "Description": "R basılı tut → D tap → R bırak - Köşeye yerleştirme şutu",
+            "Hotkey": "F",
+            "Actions": [
+              {
+                "Id": "d4e5f6a7-0008-0001-0001-000000000001",
+                "Key": "R",
+                "ActionType": "Press",
+                "DelayAfterMs": 5,
+                "HoldDurationMs": 40
+              },
+              {
+                "Id": "d4e5f6a7-0008-0001-0001-000000000002",
+                "Key": "D",
+                "ActionType": "Tap",
+                "DelayAfterMs": 5,
+                "HoldDurationMs": 200
+              },
+              {
+                "Id": "d4e5f6a7-0008-0001-0001-000000000003",
+                "Key": "R",
+                "ActionType": "Release",
+                "DelayAfterMs": 0,
+                "HoldDurationMs": 40
+              }
+            ],
+            "Category": "Şut",
+            "IsEnabled": true,
+            "RepeatWhileHeld": false,
+            "RepeatDelayMs": 100
+          },
+          {
+            "Id": "c3d4e5f6-0008-0001-0001-000000000002",
+            "CreatedAt": "2026-02-01T02:30:00",
+            "UpdatedAt": "2026-02-01T02:30:00",
+            "Name": "Sert Şut (Power Shot)",
+            "Description": "Q + R + D aynı anda - Güçlü ve hassas şut",
+            "Hotkey": "Tab",
+            "Actions": [
+              {
+                "Id": "d4e5f6a7-0008-0002-0001-000000000001",
+                "Key": "Q",
+                "ActionType": "Press",
+                "DelayAfterMs": 10,
+                "HoldDurationMs": 40
+              },
+              {
+                "Id": "d4e5f6a7-0008-0002-0001-000000000002",
+                "Key": "R",
+                "ActionType": "Press",
+                "DelayAfterMs": 10,
+                "HoldDurationMs": 40
+              },
+              {
+                "Id": "d4e5f6a7-0008-0002-0001-000000000003",
+                "Key": "D",
+                "ActionType": "Tap",
+                "DelayAfterMs": 40,
+                "HoldDurationMs": 250
+              },
+              {
+                "Id": "d4e5f6a7-0008-0002-0001-000000000004",
+                "Key": "Q",
+                "ActionType": "Release",
+                "DelayAfterMs": 10,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "d4e5f6a7-0008-0002-0001-000000000005",
+                "Key": "R",
+                "ActionType": "Release",
+                "DelayAfterMs": 0,
+                "HoldDurationMs": 0
+              }
+            ],
+            "Category": "Şut",
+            "IsEnabled": true,
+            "RepeatWhileHeld": false,
+            "RepeatDelayMs": 100
+          },
+          {
+            "Id": "c3d4e5f6-0008-0001-0001-000000000003",
+            "CreatedAt": "2026-02-01T02:30:00",
+            "UpdatedAt": "2026-02-01T02:30:00",
+            "Name": "Trivela",
+            "Description": "Z + D - Dış ayak şutu (Quaresma tarzı)",
+            "Hotkey": "T",
+            "Actions": [
+              {
+                "Id": "d4e5f6a7-0008-0003-0001-000000000001",
+                "Key": "Z",
+                "ActionType": "Press",
+                "DelayAfterMs": 10,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "d4e5f6a7-0008-0003-0001-000000000002",
+                "Key": "D",
+                "ActionType": "Tap",
+                "DelayAfterMs": 80,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "d4e5f6a7-0008-0003-0001-000000000003",
+                "Key": "Z",
+                "ActionType": "Release",
+                "DelayAfterMs": 0,
+                "HoldDurationMs": 0
+              }
+            ],
+            "Category": "Şut",
+            "IsEnabled": true,
+            "RepeatWhileHeld": false,
+            "RepeatDelayMs": 100
+          }
+        ],
+        "Playlists": [],
+        "IsEnabled": true,
+        "AccentColor": "#00D9FF"
+      }
+    ],
+    "IsEnabled": true,
+    "ThemeColor": "#00D9FF",
+    "ExecutableName": "FC24.exe"
+  },
+  {
+    "Id": "sf2ce-game-001",
+    "CreatedAt": "2026-02-07T15:11:00",
+    "UpdatedAt": "2026-02-07T15:11:00",
+    "Name": "Street Fighter 2: Champion Edition",
+    "Description": "Classic arcade fighting game - The original champion edition",
+    "IconPath": "",
+    "BannerPath": "",
+    "Characters": [
+      {
+        "Id": "sf2ce-mbison-001",
+        "CreatedAt": "2026-02-07T15:11:00",
+        "Name": "M. Bison (Dictator)",
+        "Description": "The evil dictator with psycho power",
+        "IconPath": "",
+        "Combos": [
+          {
+            "Id": "sf2ce-mbison-combo-001",
+            "CreatedAt": "2026-02-07T15:11:00",
+            "UpdatedAt": "2026-02-07T15:11:00",
+            "Name": "Psycho Crusher",
+            "Description": "← (charge) → + Punch - Spinning drill attack",
+            "Hotkey": "B",
+            "Actions": [
+              {
+                "Id": "sf2ce-mbison-action-001-001",
+                "Key": "Left",
+                "ActionType": "Press",
+                "DelayAfterMs": 1500,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "sf2ce-mbison-action-001-002",
+                "Key": "Left",
+                "ActionType": "Release",
+                "DelayAfterMs": 30,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "sf2ce-mbison-action-001-003",
+                "Key": "Right",
+                "ActionType": "Press",
+                "DelayAfterMs": 30,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "sf2ce-mbison-action-001-004",
+                "Key": "A",
+                "ActionType": "Tap",
+                "DelayAfterMs": 50,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "sf2ce-mbison-action-001-005",
+                "Key": "Right",
+                "ActionType": "Release",
+                "DelayAfterMs": 0,
+                "HoldDurationMs": 0
+              }
+            ],
+            "Category": "Special",
+            "IsEnabled": true,
+            "RepeatWhileHeld": false,
+            "RepeatDelayMs": 100
+          },
+          {
+            "Id": "sf2ce-mbison-combo-002",
+            "CreatedAt": "2026-02-07T15:11:00",
+            "UpdatedAt": "2026-02-07T15:11:00",
+            "Name": "Psycho Crusher (Strong)",
+            "Description": "← (charge) → + Strong Punch - Stronger version",
+            "Hotkey": "N",
+            "Actions": [
+              {
+                "Id": "sf2ce-mbison-action-002-001",
+                "Key": "Left",
+                "ActionType": "Press",
+                "DelayAfterMs": 1500,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "sf2ce-mbison-action-002-002",
+                "Key": "Left",
+                "ActionType": "Release",
+                "DelayAfterMs": 30,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "sf2ce-mbison-action-002-003",
+                "Key": "Right",
+                "ActionType": "Press",
+                "DelayAfterMs": 30,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "sf2ce-mbison-action-002-004",
+                "Key": "D",
+                "ActionType": "Tap",
+                "DelayAfterMs": 50,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "sf2ce-mbison-action-002-005",
+                "Key": "Right",
+                "ActionType": "Release",
+                "DelayAfterMs": 0,
+                "HoldDurationMs": 0
+              }
+            ],
+            "Category": "Special",
+            "IsEnabled": true,
+            "RepeatWhileHeld": false,
+            "RepeatDelayMs": 100
+          },
+          {
+            "Id": "sf2ce-mbison-combo-003",
+            "CreatedAt": "2026-02-07T15:11:00",
+            "UpdatedAt": "2026-02-07T15:11:00",
+            "Name": "Scissor Kick",
+            "Description": "← (charge) → + Kick - Flying scissor kick",
+            "Hotkey": "M",
+            "Actions": [
+              {
+                "Id": "sf2ce-mbison-action-003-001",
+                "Key": "Left",
+                "ActionType": "Press",
+                "DelayAfterMs": 1500,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "sf2ce-mbison-action-003-002",
+                "Key": "Left",
+                "ActionType": "Release",
+                "DelayAfterMs": 30,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "sf2ce-mbison-action-003-003",
+                "Key": "Right",
+                "ActionType": "Press",
+                "DelayAfterMs": 30,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "sf2ce-mbison-action-003-004",
+                "Key": "Z",
+                "ActionType": "Tap",
+                "DelayAfterMs": 50,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "sf2ce-mbison-action-003-005",
+                "Key": "Right",
+                "ActionType": "Release",
+                "DelayAfterMs": 0,
+                "HoldDurationMs": 0
+              }
+            ],
+            "Category": "Special",
+            "IsEnabled": true,
+            "RepeatWhileHeld": false,
+            "RepeatDelayMs": 100
+          },
+          {
+            "Id": "sf2ce-mbison-combo-004",
+            "CreatedAt": "2026-02-07T15:11:00",
+            "UpdatedAt": "2026-02-07T15:11:00",
+            "Name": "Scissor Kick (Strong)",
+            "Description": "← (charge) → + Strong Kick - Stronger version",
+            "Hotkey": "Comma",
+            "Actions": [
+              {
+                "Id": "sf2ce-mbison-action-004-001",
+                "Key": "Left",
+                "ActionType": "Press",
+                "DelayAfterMs": 1500,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "sf2ce-mbison-action-004-002",
+                "Key": "Left",
+                "ActionType": "Release",
+                "DelayAfterMs": 30,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "sf2ce-mbison-action-004-003",
+                "Key": "Right",
+                "ActionType": "Press",
+                "DelayAfterMs": 30,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "sf2ce-mbison-action-004-004",
+                "Key": "C",
+                "ActionType": "Tap",
+                "DelayAfterMs": 50,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "sf2ce-mbison-action-004-005",
+                "Key": "Right",
+                "ActionType": "Release",
+                "DelayAfterMs": 0,
+                "HoldDurationMs": 0
+              }
+            ],
+            "Category": "Special",
+            "IsEnabled": true,
+            "RepeatWhileHeld": false,
+            "RepeatDelayMs": 100
+          },
+          {
+            "Id": "sf2ce-mbison-combo-005",
+            "CreatedAt": "2026-02-07T15:11:00",
+            "UpdatedAt": "2026-02-07T15:11:00",
+            "Name": "Head Press",
+            "Description": "↓ (charge) ↑ + Kick - Jumping stomp attack",
+            "Hotkey": "1",
+            "Actions": [
+              {
+                "Id": "sf2ce-mbison-action-005-001",
+                "Key": "Down",
+                "ActionType": "Press",
+                "DelayAfterMs": 1500,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "sf2ce-mbison-action-005-002",
+                "Key": "Down",
+                "ActionType": "Release",
+                "DelayAfterMs": 30,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "sf2ce-mbison-action-005-003",
+                "Key": "Up",
+                "ActionType": "Tap",
+                "DelayAfterMs": 30,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "sf2ce-mbison-action-005-004",
+                "Key": "Z",
+                "ActionType": "Tap",
+                "DelayAfterMs": 50,
+                "HoldDurationMs": 30
+              }
+            ],
+            "Category": "Special",
+            "IsEnabled": true,
+            "RepeatWhileHeld": false,
+            "RepeatDelayMs": 100
+          },
+          {
+            "Id": "sf2ce-mbison-combo-006",
+            "CreatedAt": "2026-02-07T15:11:00",
+            "UpdatedAt": "2026-02-07T15:11:00",
+            "Name": "Head Press (Strong)",
+            "Description": "↓ (charge) ↑ + Strong Kick - Stronger version",
+            "Hotkey": "2",
+            "Actions": [
+              {
+                "Id": "sf2ce-mbison-action-006-001",
+                "Key": "Down",
+                "ActionType": "Press",
+                "DelayAfterMs": 1500,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "sf2ce-mbison-action-006-002",
+                "Key": "Down",
+                "ActionType": "Release",
+                "DelayAfterMs": 30,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "sf2ce-mbison-action-006-003",
+                "Key": "Up",
+                "ActionType": "Tap",
+                "DelayAfterMs": 30,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "sf2ce-mbison-action-006-004",
+                "Key": "C",
+                "ActionType": "Tap",
+                "DelayAfterMs": 50,
+                "HoldDurationMs": 30
+              }
+            ],
+            "Category": "Special",
+            "IsEnabled": true,
+            "RepeatWhileHeld": false,
+            "RepeatDelayMs": 100
+          },
+          {
+            "Id": "sf2ce-mbison-combo-007",
+            "CreatedAt": "2026-02-07T15:11:00",
+            "UpdatedAt": "2026-02-07T15:11:00",
+            "Name": "Devil Reverse",
+            "Description": "↓ (charge) ↑ + Punch (then Punch) - Flip attack",
+            "Hotkey": "3",
+            "Actions": [
+              {
+                "Id": "sf2ce-mbison-action-007-001",
+                "Key": "Down",
+                "ActionType": "Press",
+                "DelayAfterMs": 1500,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "sf2ce-mbison-action-007-002",
+                "Key": "Down",
+                "ActionType": "Release",
+                "DelayAfterMs": 30,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "sf2ce-mbison-action-007-003",
+                "Key": "Up",
+                "ActionType": "Tap",
+                "DelayAfterMs": 30,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "sf2ce-mbison-action-007-004",
+                "Key": "A",
+                "ActionType": "Tap",
+                "DelayAfterMs": 300,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "sf2ce-mbison-action-007-005",
+                "Key": "A",
+                "ActionType": "Tap",
+                "DelayAfterMs": 50,
+                "HoldDurationMs": 30
+              }
+            ],
+            "Category": "Special",
+            "IsEnabled": true,
+            "RepeatWhileHeld": false,
+            "RepeatDelayMs": 100
+          },
+          {
+            "Id": "sf2ce-mbison-combo-008",
+            "CreatedAt": "2026-02-07T15:11:00",
+            "UpdatedAt": "2026-02-07T15:11:00",
+            "Name": "Basic Combo 1",
+            "Description": "Weak Punch → Weak Punch → Scissor Kick",
+            "Hotkey": "4",
+            "Actions": [
+              {
+                "Id": "sf2ce-mbison-action-008-001",
+                "Key": "A",
+                "ActionType": "Tap",
+                "DelayAfterMs": 150,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "sf2ce-mbison-action-008-002",
+                "Key": "A",
+                "ActionType": "Tap",
+                "DelayAfterMs": 150,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "sf2ce-mbison-action-008-003",
+                "Key": "Left",
+                "ActionType": "Press",
+                "DelayAfterMs": 1000,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "sf2ce-mbison-action-008-004",
+                "Key": "Left",
+                "ActionType": "Release",
+                "DelayAfterMs": 30,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "sf2ce-mbison-action-008-005",
+                "Key": "Right",
+                "ActionType": "Press",
+                "DelayAfterMs": 30,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "sf2ce-mbison-action-008-006",
+                "Key": "Z",
+                "ActionType": "Tap",
+                "DelayAfterMs": 50,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "sf2ce-mbison-action-008-007",
+                "Key": "Right",
+                "ActionType": "Release",
+                "DelayAfterMs": 0,
+                "HoldDurationMs": 0
+              }
+            ],
+            "Category": "Combo",
+            "IsEnabled": true,
+            "RepeatWhileHeld": false,
+            "RepeatDelayMs": 100
+          },
+          {
+            "Id": "sf2ce-mbison-combo-009",
+            "CreatedAt": "2026-02-07T15:11:00",
+            "UpdatedAt": "2026-02-07T15:11:00",
+            "Name": "Basic Combo 2",
+            "Description": "Strong Punch → Psycho Crusher",
+            "Hotkey": "5",
+            "Actions": [
+              {
+                "Id": "sf2ce-mbison-action-009-001",
+                "Key": "D",
+                "ActionType": "Tap",
+                "DelayAfterMs": 200,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "sf2ce-mbison-action-009-002",
+                "Key": "Left",
+                "ActionType": "Press",
+                "DelayAfterMs": 1200,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "sf2ce-mbison-action-009-003",
+                "Key": "Left",
+                "ActionType": "Release",
+                "DelayAfterMs": 30,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "sf2ce-mbison-action-009-004",
+                "Key": "Right",
+                "ActionType": "Press",
+                "DelayAfterMs": 30,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "sf2ce-mbison-action-009-005",
+                "Key": "D",
+                "ActionType": "Tap",
+                "DelayAfterMs": 50,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "sf2ce-mbison-action-009-006",
+                "Key": "Right",
+                "ActionType": "Release",
+                "DelayAfterMs": 0,
+                "HoldDurationMs": 0
+              }
+            ],
+            "Category": "Combo",
+            "IsEnabled": true,
+            "RepeatWhileHeld": false,
+            "RepeatDelayMs": 100
+          },
+          {
+            "Id": "sf2ce-mbison-combo-010",
+            "CreatedAt": "2026-02-07T15:11:00",
+            "UpdatedAt": "2026-02-07T15:11:00",
+            "Name": "Jump Combo",
+            "Description": "Jump Strong Kick → Weak Punch → Strong Scissor Kick",
+            "Hotkey": "6",
+            "Actions": [
+              {
+                "Id": "sf2ce-mbison-action-010-001",
+                "Key": "Up",
+                "ActionType": "Tap",
+                "DelayAfterMs": 100,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "sf2ce-mbison-action-010-002",
+                "Key": "C",
+                "ActionType": "Tap",
+                "DelayAfterMs": 400,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "sf2ce-mbison-action-010-003",
+                "Key": "A",
+                "ActionType": "Tap",
+                "DelayAfterMs": 150,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "sf2ce-mbison-action-010-004",
+                "Key": "Left",
+                "ActionType": "Press",
+                "DelayAfterMs": 1000,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "sf2ce-mbison-action-010-005",
+                "Key": "Left",
+                "ActionType": "Release",
+                "DelayAfterMs": 30,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "sf2ce-mbison-action-010-006",
+                "Key": "Right",
+                "ActionType": "Press",
+                "DelayAfterMs": 30,
+                "HoldDurationMs": 0
+              },
+              {
+                "Id": "sf2ce-mbison-action-010-007",
+                "Key": "C",
+                "ActionType": "Tap",
+                "DelayAfterMs": 50,
+                "HoldDurationMs": 30
+              },
+              {
+                "Id": "sf2ce-mbison-action-010-008",
+                "Key": "Right",
+                "ActionType": "Release",
+                "DelayAfterMs": 0,
+                "HoldDurationMs": 0
+              }
+            ],
+            "Category": "Combo",
+            "IsEnabled": true,
+            "RepeatWhileHeld": false,
+            "RepeatDelayMs": 100
+          }
+        ],
+        "Playlists": [],
+        "IsEnabled": true,
+        "AccentColor": "#8B0000"
+      }
+    ],
+    "IsEnabled": true,
+    "ThemeColor": "#8B0000",
+    "ExecutableName": "SF2CE.exe"
+  }
+]

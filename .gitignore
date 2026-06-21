@@ -1,0 +1,17 @@
+## Build outputs
+[Db]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+## Visual Studio Cache and settings
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.suo.tmp
+
+## Resharper / Rider
+.idea/
+*.sln.DotSettings.user
